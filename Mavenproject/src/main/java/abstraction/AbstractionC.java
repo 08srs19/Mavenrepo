@@ -8,7 +8,8 @@ public class AbstractionC extends AbstractionP {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AbstractionC obj=new AbstractionC();
+		//AbstractionC obj=new AbstractionC();//First option
+		AbstractionP obj=new AbstractionC();//Second option
 		obj.display();
 		obj.print();
 
